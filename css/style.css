@@ -20,6 +20,18 @@ Escritorio (XL revisamos en 1366 en adelante)
 
     }
 
+    /*============================================
+    Estilos del body - index
+    ============================================*/
+
+    .body-index{
+
+        background: -webkit-gradient(linear, left top, left bottom, from(#1D6378), to(#CFE8F0), color-stop(0.4, #6DA8B9));
+        background: -moz-linear-gradient(linear, left top, left bottom, from(#1D6378), to(#CFE8F0), color-stop(0.4, #6DA8B9));
+
+    }
+
+
 /*============================================
 TABLET HORIZONTAL (LG revisamos en 1024px)
 ============================================*/
