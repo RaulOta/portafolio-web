@@ -1,6 +1,24 @@
 /*============================================
 Escritorio (XL revisamos en 1366 en adelante)
 ============================================*/
+    *{
+
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    ul, ol{
+
+        list-style: none; /*Quitar los estilos por defecto*/
+
+    }
+
+    a:visited, a:link, a:focus, a:hover, a:active{
+
+        list-style: none;
+        text-decoration: none; /*Ocultar las líneas debajo del texto*/
+
+    }
 
 /*============================================
 TABLET HORIZONTAL (LG revisamos en 1024px)
@@ -38,6 +56,6 @@ MÓVIL VERTICAL (revisamos en 320px)
 
 @media (max-width:575px){
 
-    
+
 
 }
