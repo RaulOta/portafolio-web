@@ -24,10 +24,56 @@ Escritorio (XL revisamos en 1366 en adelante)
     Estilos del body - index
     ============================================*/
 
-    .body-index{
+    /*.body-index{
 
         background: -webkit-gradient(linear, left top, left bottom, from(#1D6378), to(#CFE8F0), color-stop(0.4, #6DA8B9));
         background: -moz-linear-gradient(linear, left top, left bottom, from(#1D6378), to(#CFE8F0), color-stop(0.4, #6DA8B9));
+
+    }*/
+
+    /*============================================
+    HEADER
+    ============================================*/
+    header{
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        background: rgba(0,0,0,.5);
+
+    }
+
+    .logotipo{
+        width: 80%;
+    }
+
+    .style-ul-menu{
+
+        padding: 0;
+
+    }
+
+    .style-ul-menu li{
+        display: inline;
+    }
+
+    .style-ul-menu li a{
+
+        font-size: 18px;
+        font-weight: 400;
+        float: left;
+        padding: 10px;
+        color:white;
+
+    }
+
+    .style-ul-menu li a:hover{
+
+        /* background-color: #69A4B6; */
+        color: black;
+        /* margin-top: -2; */
+        /* padding-bottom: 18px; */
 
     }
 
@@ -38,7 +84,9 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
-
+    .logotipo{
+        width: 90%;
+    }
 
 }
 
@@ -48,7 +96,9 @@ TABLET VERTICAL (MD revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
-
+    .logotipo{
+        width: 100%;
+    }
 
 }
 
@@ -58,6 +108,16 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
 
 @media (max-width:767px) and (min-width:576px){
 
+    .fa-bars{
+
+        color: white;
+        font-size: 28px;
+        padding: 4px;
+    }
+
+    .logotipo{
+        width: 80%;
+    }
 
 
 }
@@ -68,6 +128,16 @@ MÓVIL VERTICAL (revisamos en 320px)
 
 @media (max-width:575px){
 
+    .fa-bars{
 
+        color: white;
+        font-size: 23px;
+        padding: 3px;
+
+    }
+
+    .logotipo{
+        width: 60%;
+    }
 
 }
