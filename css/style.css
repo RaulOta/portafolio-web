@@ -24,12 +24,12 @@ Escritorio (XL revisamos en 1366 en adelante)
     Estilos del body - index
     ============================================*/
 
-    /*.body-index{
+    .body-index{
 
         background: -webkit-gradient(linear, left top, left bottom, from(#1D6378), to(#CFE8F0), color-stop(0.4, #6DA8B9));
         background: -moz-linear-gradient(linear, left top, left bottom, from(#1D6378), to(#CFE8F0), color-stop(0.4, #6DA8B9));
 
-    }*/
+    }
 
     /*============================================
     HEADER
@@ -77,6 +77,39 @@ Escritorio (XL revisamos en 1366 en adelante)
 
     }
 
+    /*============================================
+    PORTADA
+    ============================================*/
+
+    .bloque-portada {
+
+        position: relative;
+        margin: auto;
+        flex-shrink: 0;
+        overflow: hidden;
+        width: 100%;
+
+    }
+
+    .img-portada{
+        width: 100%;
+        height: 400px;
+    }
+
+    .img-perfil{
+
+        width:150px;
+        border: 4px solid white;
+
+    }
+
+    .bloque-portada .bloque-img-perfil {
+
+        margin-top: -130px;
+        position: relative;
+        text-align: center;
+
+    }
 
 /*============================================
 TABLET HORIZONTAL (LG revisamos en 1024px)
@@ -100,6 +133,11 @@ TABLET VERTICAL (MD revisamos en 768px)
         width: 100%;
     }
 
+    .img-portada{
+        width: 100%;
+        height: 300px;
+    }
+
 }
 
 /*============================================
@@ -115,8 +153,17 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
         padding: 4px;
     }
 
+    /*============================================
+    PORTADA
+    ============================================*/
+
     .logotipo{
         width: 80%;
+    }
+
+    .img-portada{
+        width: 100%;
+        height: 250px;
     }
 
 
@@ -136,8 +183,32 @@ MÓVIL VERTICAL (revisamos en 320px)
 
     }
 
+    /*============================================
+    PORTADA
+    ============================================*/
+
     .logotipo{
         width: 60%;
+    }
+
+    .img-portada{
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-perfil{
+
+        width:120px;
+        margin: 1Opx;
+
+    }
+
+    .bloque-portada .bloque-img-perfil {
+
+        margin-top: -110px;
+        position: relative;
+        text-align: center;
+
     }
 
 }
