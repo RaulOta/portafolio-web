@@ -111,6 +111,88 @@ Escritorio (XL revisamos en 1366 en adelante)
 
     }
 
+    /*============================================
+    INFORMACIÓN PERSONAL
+    ============================================*/
+
+    .bloque-info-personal h3{
+
+        font-size: 30px;
+        font-weight: 600;
+        padding: 10px;
+
+    }
+
+    .redes-sociales{
+
+        padding: 0;
+
+    }
+
+    .redes-sociales li{
+
+        display: inline;
+
+    }
+
+    .redes-sociales li i{
+
+        font-size: 30px;
+        font-weight: 400;
+        padding: 30px;
+
+    }
+
+    .separador{
+
+        border: 1px solid #707070;
+        width: 65%;
+
+    }
+
+    /*============================================
+    SOBRE MÍ
+    ============================================*/
+
+    .style-titulos{
+
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    .bloque-info-sobre-mi h3{
+
+        font-size: 62px;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .bloque-info-sobre-mi .descripcion{
+
+        font-size: 30px;
+        color:white;
+
+    }
+
+    .btn-leer-mas{
+
+        background-color: transparent;
+        width: 150px;
+        height: 60px;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        border: 3px solid  white;
+
+    }
+
+    
+
 /*============================================
 TABLET HORIZONTAL (LG revisamos en 1024px)
 ============================================*/
@@ -119,6 +201,22 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
 
     .logotipo{
         width: 90%;
+    }
+
+    /*============================================
+    SOBRE MÍ
+    ============================================*/
+
+    .bloque-info-sobre-mi h3{
+
+        font-size: 60px;
+
+    }
+    
+    .bloque-info-sobre-mi .descripcion{
+
+        font-size: 25px;
+
     }
 
 }
@@ -136,6 +234,40 @@ TABLET VERTICAL (MD revisamos en 768px)
     .img-portada{
         width: 100%;
         height: 300px;
+    }
+
+    /*============================================
+    INFORMACIÓN PERSONAL
+    ============================================*/
+
+    .separador{
+
+        width: 70%;
+
+    }
+
+    /*============================================
+    SOBRE MÍ
+    ============================================*/
+
+    .bloque-info-sobre-mi h3{
+
+        font-size: 55px;
+        
+    }
+    
+    .bloque-info-sobre-mi .descripcion{
+
+        font-size: 20px;
+
+    }
+
+    .btn-leer-mas{
+
+        width: 145px;
+        height: 55px;
+        font-size: 22px;
+
     }
 
 }
@@ -164,6 +296,47 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
     .img-portada{
         width: 100%;
         height: 250px;
+    }
+
+    /*============================================
+    INFORMACIÓN PERSONAL
+    ============================================*/
+
+    .separador{
+
+        width: 75%;
+
+    }
+
+    /*============================================
+    SOBRE MÍ
+    ============================================*/
+
+    .style-titulos{
+
+        font-size: 27px;
+        padding: 20px;
+
+    }
+
+    .bloque-info-sobre-mi h3{
+
+        font-size: 50px;
+
+    }
+    
+    .bloque-info-sobre-mi .descripcion{
+        
+        font-size: 22px;
+
+    }
+
+    .btn-leer-mas{
+
+        width: 140px;
+        height: 50px;
+        font-size: 22px;
+
     }
 
 
@@ -208,6 +381,63 @@ MÓVIL VERTICAL (revisamos en 320px)
         margin-top: -110px;
         position: relative;
         text-align: center;
+
+    }
+
+    /*============================================
+    INFORMACIÓN PERSONAL
+    ============================================*/
+
+    .bloque-info-personal h3{
+
+        font-size: 17px;
+        font-weight: 600;
+        padding: 5px;
+
+    }
+
+    .redes-sociales li i{
+
+        font-size: 22px;
+        font-weight: 400;
+        padding: 20px;
+
+    }
+
+    .separador{
+
+        width: 85%;
+
+    }
+
+    /*============================================
+    SOBRE MÍ
+    ============================================*/
+
+    .style-titulos{
+
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    .bloque-info-sobre-mi h3{
+
+        font-size: 35px;
+
+    }
+    
+    .bloque-info-sobre-mi .descripcion{
+
+        font-size: 15px;
+
+    }
+
+    .btn-leer-mas{
+
+        width: 115px;
+        height: 45px;
+        font-size: 18px;
 
     }
 
