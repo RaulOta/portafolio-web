@@ -191,6 +191,44 @@ Escritorio (XL revisamos en 1366 en adelante)
 
     }
 
+    /*============================================
+    SECCIÓN PROYECTOS
+    ============================================*/
+
+    .bloque-proyectos .titulo-proyecto{
+        
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .bloque-proyectos h3{
+
+        font-size: 25px;
+
+    }
+
+    .bloque-proyectos i{
+        font-size: 20px;
+    }
+
+    .bloque-proyectos p{
+
+        font-size: 22px;
+
+    }
+
+    .btn-visitar{
+
+        background-color: transparent;
+        width: 150px;
+        height: 55px;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+        border: 3px solid  black;
+
+    }
+
     
 
 /*============================================
@@ -216,6 +254,42 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
     .bloque-info-sobre-mi .descripcion{
 
         font-size: 25px;
+
+    }
+
+    /*============================================
+    SECCIÓN PROYECTOS
+    ============================================*/
+
+    .bloque-proyectos .titulo-proyecto{
+        
+        font-size: 26px;
+
+    }
+
+    .bloque-proyectos h3{
+
+        font-size: 20px;
+
+    }
+
+    .bloque-proyectos i{
+
+        font-size: 15px;
+        
+    }
+
+    .bloque-proyectos p{
+
+        font-size: 18px;
+
+    }
+
+    .btn-visitar{
+
+        width: 135px;
+        height: 50px;
+        font-size: 22px;
 
     }
 
@@ -267,6 +341,42 @@ TABLET VERTICAL (MD revisamos en 768px)
         width: 145px;
         height: 55px;
         font-size: 22px;
+
+    }
+
+    /*============================================
+    SECCIÓN PROYECTOS
+    ============================================*/
+
+    .bloque-proyectos .titulo-proyecto{
+        
+        font-size: 20px;
+
+    }
+
+    .bloque-proyectos h3{
+
+        font-size: 17px;
+
+    }
+
+    .bloque-proyectos i{
+
+        font-size: 13px;
+        
+    }
+
+    .bloque-proyectos p{
+
+        font-size: 15px;
+
+    }
+
+    .btn-visitar{
+
+        width: 120px;
+        height: 45px;
+        font-size: 20px;
 
     }
 
@@ -337,6 +447,39 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
         height: 50px;
         font-size: 22px;
 
+    }
+
+    /*============================================
+    SECCIÓN PROYECTO - MÓVIL
+    ============================================*/
+
+    .proyecto-movil{
+
+        border: 2px solid #707070;
+
+    }
+
+    .img-proyecto-movil{
+
+        width: 80%;
+
+    }
+
+    .texto-proyecto-movi{
+
+        width: 100%;
+        bottom: -5px;
+        left: 0;
+
+    }
+
+    .texto-proyecto-movi h3{
+
+        font-weight: bold;
+        font-size: 23px;
+        background: rgba(83, 80, 80, .33);
+        padding: 15px 0;
+    
     }
 
 
@@ -439,6 +582,39 @@ MÓVIL VERTICAL (revisamos en 320px)
         height: 45px;
         font-size: 18px;
 
+    }
+
+    /*============================================
+    SECCIÓN PROYECTO - MÓVIL
+    ============================================*/
+
+    .proyecto-movil{
+
+        border: 2px solid #707070;
+
+    }
+
+    .img-proyecto-movil{
+
+        width: 90%;
+
+    }
+
+    .texto-proyecto-movi{
+
+        width: 100%;
+        bottom: -5px;
+        left: 0;
+
+    }
+
+    .texto-proyecto-movi h3{
+
+        font-weight: bold;
+        font-size: 15px;
+        background: rgba(83, 80, 80, .33);
+        padding: 15px 0;
+    
     }
 
 }
