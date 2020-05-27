@@ -294,6 +294,45 @@ Escritorio (XL revisamos en 1366 en adelante)
         padding: 2px;
 
     }
+
+    /*============================================
+    EXPERIENCIA
+    ============================================*/
+
+    .contenedor-experiencia{
+
+        width: 48%;
+        border-radius: 10px;
+        flex-shrink: 0;
+        margin: 10px;
+        overflow: hidden;
+
+    }
+
+    .contenedor-experiencia-texto{
+
+        background: white;
+        height: 200px;
+        margin: 20px 40px;
+        margin-top: -40px;
+        padding: 20px;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .contenedor-experiencia-texto h3{
+
+        font-weight: bold;
+        font-size: 21px;
+
+    }
+
+    .contenedor-experiencia-texto p{
+
+        font-size: 17px;
+
+    }
     
 
 /*============================================
@@ -386,6 +425,28 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
     
         font-size: 17px;
         padding: 1px;
+
+    }
+
+    /*============================================
+    EXPERIENCIA
+    ============================================*/
+
+    .contenedor-experiencia{
+
+        width: 47%;
+
+    }
+
+    .contenedor-experiencia-texto h3{
+
+        font-size: 20px;
+
+    }
+
+    .contenedor-experiencia-texto p{
+
+        font-size: 15px;
 
     }
     
@@ -510,6 +571,37 @@ TABLET VERTICAL (MD revisamos en 768px)
     
         font-size: 14px;
         padding: 1px;
+
+    }
+
+    /*============================================
+    EXPERIENCIA
+    ============================================*/
+
+    .contenedor-experiencia{
+
+        width: 47%;
+
+    }
+
+    .contenedor-experiencia-texto{
+
+        height: 160px;
+        margin: 20px 15px;
+        margin-top: -20px;
+        padding: 10px;
+
+    }
+
+    .contenedor-experiencia-texto h3{
+
+        font-size: 17px;
+
+    }
+
+    .contenedor-experiencia-texto p{
+
+        font-size: 13px;
 
     }
 
@@ -686,6 +778,37 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
 
         width: 90%;
         display: flex;
+
+    }
+
+    /*============================================
+    EXPERIENCIA
+    ============================================*/
+
+    .contenedor-experiencia{
+
+        width: 96%;
+
+    }
+
+    .contenedor-experiencia-texto{
+
+        height: 180px;
+        margin: 20px 20px;
+        margin-top: -30px;
+        padding: 10px;
+
+    }
+
+    .contenedor-experiencia-texto h3{
+
+        font-size: 20px;
+
+    }
+
+    .contenedor-experiencia-texto p{
+
+        font-size: 16px;
 
     }
 
@@ -935,6 +1058,42 @@ MÓVIL VERTICAL (revisamos en 320px)
     
         font-size: 17px;
         padding: 1px;
+
+    }
+
+    /*============================================
+    EXPERIENCIA
+    ============================================*/
+
+    .img-experiencia{
+        height: .5%;
+        /* width: 100%; */
+    }
+
+    .contenedor-experiencia{
+
+        width: 96%;
+
+    }
+
+    .contenedor-experiencia-texto{
+
+        height: 180px;
+        margin: 20px 10px;
+        margin-top: -50px;
+        padding: 10px;
+
+    }
+
+    .contenedor-experiencia-texto h3{
+
+        font-size: 15px;
+
+    }
+
+    .contenedor-experiencia-texto p{
+
+        font-size: 13px;
 
     }
 
