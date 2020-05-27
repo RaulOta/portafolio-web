@@ -333,6 +333,38 @@ Escritorio (XL revisamos en 1366 en adelante)
         font-size: 17px;
 
     }
+
+    /*============================================
+    FOOTER
+    ============================================*/
+
+    footer{
+
+        background: #222222;
+
+    }
+
+    .contenedor-footer{
+
+        display: flex;
+        color: white;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contenedor-footer li{
+
+        display: inline;
+
+    }
+
+    .contenedor-footer li span{
+
+        font-size: 20px;
+
+    }
     
 
 /*============================================
@@ -605,6 +637,22 @@ TABLET VERTICAL (MD revisamos en 768px)
 
     }
 
+    /*============================================
+    FOOTER
+    ============================================*/
+
+    .contenedor-footer{
+
+        height: 40px;
+
+    }
+
+    .contenedor-footer li span{
+
+        font-size: 17px;
+
+    }
+
 }
 
 /*============================================
@@ -809,6 +857,28 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
     .contenedor-experiencia-texto p{
 
         font-size: 16px;
+
+    }
+
+    /*============================================
+    FOOTER
+    ============================================*/
+
+    .contenedor-footer{
+
+        height: 35px;
+
+    }
+
+    .contenedor-footer li span{
+
+        font-size: 15px;
+
+    }
+
+    .contenedor-footer li i{
+
+        font-size: 14px;
 
     }
 
@@ -1092,6 +1162,28 @@ MÓVIL VERTICAL (revisamos en 320px)
     }
 
     .contenedor-experiencia-texto p{
+
+        font-size: 13px;
+
+    }
+
+    /*============================================
+    FOOTER
+    ============================================*/
+
+    .contenedor-footer{
+
+        height: 34px;
+
+    }
+
+    .contenedor-footer li span{
+
+        font-size: 12px;
+
+    }
+
+    .contenedor-footer li i{
 
         font-size: 13px;
 
