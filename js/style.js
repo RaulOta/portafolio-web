@@ -4,6 +4,38 @@ m = métodos
 ==============================================*/
 
 /*==============================================
+MENÚ - MÓVIL
+==============================================*/
+
+let pMenuMovil = {
+
+    iconoMenu: document.querySelector(".fa-bars"),
+    menuMovil: document.querySelector(".contenedor-menu-movil"),
+    badera: 0
+
+}
+
+let mMenuMovil = {
+
+    mostrarMenu: ()=>{
+
+        if(pMenuMovil.badera == 0){
+
+            pMenuMovil.menuMovil.style.display = 'block'
+            pMenuMovil.badera = 1
+
+        }else{
+
+            pMenuMovil.menuMovil.style.display = 'none'
+            pMenuMovil.badera = 0
+
+        }
+
+    }
+
+}
+
+/*==============================================
 MODAL MÓVIL - PROYECTOS
 ==============================================*/
 let pModalProyecto = {
@@ -42,6 +74,8 @@ let mModalProyecto = {
     }
 
 }
+
+pMenuMovil.iconoMenu.addEventListener("click", mMenuMovil.mostrarMenu)
 
 pModalProyecto.btnClose.addEventListener("click", mModalProyecto.cerrarModal)
 

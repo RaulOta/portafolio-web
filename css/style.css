@@ -669,6 +669,39 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
     }
 
     /*============================================
+    MENÚ - MÓVIL
+    ============================================*/
+
+    .contenedor-menu-movil{
+
+        display: none;
+
+    }
+
+    .contenedor-menu-movil ul {
+
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .contenedor-menu-movil ul li{
+
+        background: rgba(105, 164, 182, 83%);
+        padding: 8px;
+
+    }
+
+    .contenedor-menu-movil ul li a{
+
+        color: white;
+        font-size: 18px;
+
+    }
+
+    /*============================================
     PORTADA
     ============================================*/
 
@@ -923,6 +956,39 @@ MÓVIL VERTICAL (revisamos en 320px)
         margin-top: -110px;
         position: relative;
         text-align: center;
+
+    }
+
+    /*============================================
+    MENÚ - MÓVIL
+    ============================================*/
+
+    .contenedor-menu-movil{
+
+        display: none;
+
+    }
+
+    .contenedor-menu-movil ul {
+
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .contenedor-menu-movil ul li{
+
+        background: rgba(105, 164, 182, 83%);
+        padding: 8px;
+
+    }
+
+    .contenedor-menu-movil ul li a{
+
+        color: white;
+        font-size: 18px;
 
     }
 
