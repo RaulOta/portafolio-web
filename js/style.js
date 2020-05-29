@@ -41,8 +41,8 @@ MODAL MÓVIL - PROYECTOS
 let pModalProyecto = {
 
     imgMovil: document.querySelectorAll(".img-proyecto-movil"),
-    modalMovil: document.querySelector(".descripcion-proyecto-movil"),
-    btnClose: document.querySelector(".btn-close")
+    modalMovil: document.querySelectorAll(".descripcion-proyecto-movil"),
+    btnClose: document.querySelectorAll(".btn-close")
 
 }
 
@@ -51,32 +51,59 @@ let mModalProyecto = {
 
     cerrarModal: function(){
 
-        pModalProyecto.modalMovil.style.display = 'none'
+        for(let i = 0; i < pModalProyecto.btnClose.length; i++){
 
-    },
+            pModalProyecto.btnClose[i].addEventListener("click", (event)=>{
 
-    mostrarImg: ()=>{
+                let idModal = event.target.getAttribute("id")-1
+                pModalProyecto.modalMovil[idModal].style.display = 'none'
 
-        for(var i = 0; i < pModalProyecto.imgMovil.length; i++){
-
-            pModalProyecto.imgMovil[i].addEventListener("click", mModalProyecto.prueba)
+            })
 
         }
 
     },
 
-    prueba: (event)=>{
+    mostrarImg: ()=>{
 
-        let imgSelecionada = event.target
-        pModalProyecto.modalMovil.style.display = 'inline'
-        console.log(imgSelecionada)
+        for(let i = 0; i < pModalProyecto.imgMovil.length; i++){
+
+            pModalProyecto.imgMovil[i].addEventListener("click", mModalProyecto.clickMostrarImg)
+
+        }
+
+    },
+
+    clickMostrarImg: (event)=>{
+
+        // let imgSelecionada = event.target
+        // pModalProyecto.modalMovil.style.display = 'inline'
+        // console.log(imgSelecionada)
+
+        let idImg = event.target.getAttribute("id")
+
+        for(let i = 0; i < pModalProyecto.modalMovil.length; i++){
+
+            if(idImg == pModalProyecto.modalMovil[i].getAttribute("id")){
+
+                pModalProyecto.modalMovil[i].style.display = 'inline'
+
+                break
+
+            }
+
+        }
 
     }
 
 }
 
+// MENÚ - MÓVIL
+
 pMenuMovil.iconoMenu.addEventListener("click", mMenuMovil.mostrarMenu)
 
-pModalProyecto.btnClose.addEventListener("click", mModalProyecto.cerrarModal)
+// MODAL MÓVIL - PROYECTOS
+
+mModalProyecto.cerrarModal()
 
 mModalProyecto.mostrarImg()
