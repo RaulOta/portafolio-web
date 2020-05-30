@@ -244,11 +244,17 @@ Escritorio (XL revisamos en 1366 en adelante)
 
         width: 30%;
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 
     .contenedor-desc-habilidad{
 
         width: 70%;
+        margin: 17px 0;
+        position: relative;
 
     }
 
@@ -280,10 +286,11 @@ Escritorio (XL revisamos en 1366 en adelante)
 
         background: rgba(181, 165, 165, 100);
         border-radius: 30px;
-        width: 80%;
+        width: 20%;
         height: 26px;
         text-align: center;
         color: white;
+        transition: all 7s;
 
     }
 
@@ -365,7 +372,12 @@ Escritorio (XL revisamos en 1366 en adelante)
         font-size: 20px;
 
     }
-    
+
+    .img-habilidad{
+
+        width: 80%;
+
+    }    
 
 /*============================================
 TABLET HORIZONTAL (LG revisamos en 1024px)
@@ -448,7 +460,6 @@ TABLET HORIZONTAL (LG revisamos en 1024px)
 
     .contenedor-desc-habilidad .bg-barra{
 
-        width: 80%;
         height: 21px;
 
     }
@@ -594,7 +605,6 @@ TABLET VERTICAL (MD revisamos en 768px)
 
     .contenedor-desc-habilidad .bg-barra{
 
-        width: 80%;
         height: 16px;
 
     }
@@ -859,6 +869,14 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
 
         width: 90%;
         display: flex;
+
+    }
+
+    .contenedor-desc-habilidad{
+
+        width: 70%;
+        margin: 25px 0;
+        position: relative;
 
     }
 
@@ -1164,6 +1182,14 @@ MÓVIL VERTICAL (revisamos en 320px)
 
     }
 
+    .contenedor-desc-habilidad{
+
+        width: 70%;
+        margin: 30px 0;
+        position: relative;
+
+    }
+
     .style-ico{
 
         font-size: 47px;
@@ -1185,7 +1211,6 @@ MÓVIL VERTICAL (revisamos en 320px)
 
     .contenedor-desc-habilidad .bg-barra{
 
-        width: 80%;
         height: 21px;
 
     }

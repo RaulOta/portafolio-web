@@ -98,6 +98,45 @@ let mModalProyecto = {
 
 }
 
+/*==============================================
+HABILIDADES
+==============================================*/
+
+let posicion = document.getElementById("habilidad").getBoundingClientRect(),
+
+    pHabilidad = {
+
+    distancia: posicion.top + window.scrollY,
+    bandera: 0,
+    barra:document.querySelectorAll(".bg-barra")
+
+}
+
+let mHabilidad = {
+
+    efectoScroll: function(){
+
+        if(window.scrollY > pHabilidad.distancia && window.scrollY < pHabilidad.distancia+40){
+
+            if(pHabilidad.bandera != 1){
+
+                for(let i = 0; i < pHabilidad.barra.length; i++){
+
+                    pHabilidad.barra[i].style.width = pHabilidad.barra[i].childNodes[1].innerHTML
+                    pHabilidad.barra[i].style.trasition = "width"
+
+                }
+
+                pHabilidad.bandera = 1
+
+            }
+
+        }
+
+    }
+
+}
+
 // MENÚ - MÓVIL
 
 pMenuMovil.iconoMenu.addEventListener("click", mMenuMovil.mostrarMenu)
@@ -105,5 +144,12 @@ pMenuMovil.iconoMenu.addEventListener("click", mMenuMovil.mostrarMenu)
 // MODAL MÓVIL - PROYECTOS
 
 mModalProyecto.cerrarModal()
-
 mModalProyecto.mostrarImg()
+
+// HABILIDADES
+
+window.onscroll = function(){
+
+    mHabilidad.efectoScroll()
+
+}
