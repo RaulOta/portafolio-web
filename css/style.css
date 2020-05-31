@@ -20,6 +20,12 @@ Escritorio (XL revisamos en 1366 en adelante)
 
     }
 
+    html{
+
+        scroll-behavior: smooth;
+
+    }
+
     /*============================================
     Estilos del body - index
     ============================================*/
@@ -70,11 +76,10 @@ Escritorio (XL revisamos en 1366 en adelante)
 
     .style-ul-menu li a:hover{
 
-        /* background-color: #69A4B6; */
-        color: black;
-        /* margin-top: -2; */
-        /* padding-bottom: 18px; */
-
+        color: white;
+        font-weight: bold;
+        font-size: 21px;
+        
     }
 
     /*============================================
@@ -711,6 +716,14 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
 
     }
 
+    .contenedor-menu-movil a:hover{
+
+        color: white;
+        font-weight: bold;
+        font-size: 21px;
+
+    }
+
     /*============================================
     PORTADA
     ============================================*/
@@ -1007,6 +1020,14 @@ MÓVIL VERTICAL (revisamos en 320px)
 
         color: white;
         font-size: 18px;
+
+    }
+
+    .contenedor-menu-movil a:hover{
+
+        color: white;
+        font-weight: bold;
+        font-size: 21px;
 
     }
 
