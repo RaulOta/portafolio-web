@@ -320,8 +320,8 @@ Escritorio (XL revisamos en 1366 en adelante)
 
         background: white;
         height: 200px;
-        margin: 20px 40px;
-        margin-top: -40px;
+        margin: 20px 30px;
+        margin-top: -20px;
         padding: 20px;
         position: relative;
         text-align: center;
@@ -630,14 +630,14 @@ TABLET VERTICAL (MD revisamos en 768px)
 
         height: 160px;
         margin: 20px 15px;
-        margin-top: -20px;
+        margin-top: -16px;
         padding: 10px;
 
     }
 
     .contenedor-experiencia-texto h3{
 
-        font-size: 17px;
+        font-size: 16px;
 
     }
 
@@ -894,7 +894,7 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
 
         height: 180px;
         margin: 20px 20px;
-        margin-top: -30px;
+        margin-top: -20px;
         padding: 10px;
 
     }
@@ -1227,8 +1227,8 @@ MÓVIL VERTICAL (revisamos en 320px)
     ============================================*/
 
     .img-experiencia{
-        height: .5%;
-        /* width: 100%; */
+        
+        width: 100%;
     }
 
     .contenedor-experiencia{
@@ -1239,9 +1239,9 @@ MÓVIL VERTICAL (revisamos en 320px)
 
     .contenedor-experiencia-texto{
 
-        height: 180px;
+        height: 185px;
         margin: 20px 10px;
-        margin-top: -50px;
+        margin-top: -16px;
         padding: 10px;
 
     }
