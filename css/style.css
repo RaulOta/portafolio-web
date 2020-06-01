@@ -140,11 +140,19 @@ Escritorio (XL revisamos en 1366 en adelante)
 
     }
 
-    .redes-sociales li i{
+    .redes-sociales li a i{
 
         font-size: 30px;
         font-weight: 400;
         padding: 30px;
+        color: black;
+
+    }
+
+    .redes-sociales li a i:hover{
+
+        font-size: 40px;
+        font-weight: bold;
 
     }
 
