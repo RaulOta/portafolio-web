@@ -382,7 +382,84 @@ Escritorio (XL revisamos en 1366 en adelante)
 
         width: 80%;
 
-    }    
+    }
+    
+    /*============================================
+    PÁGINA - SOBRE MÍ
+    ============================================*/
+
+        /*============================================
+        SOBRE MÍ
+        ============================================*/
+
+        .sobre-mi{
+
+            margin-top: 70px;
+
+        }
+
+        .separador-row{
+
+            margin-bottom: 40px;
+
+        }
+
+        .parrafo-sobre-mi{
+
+            display: flex;
+            align-items: center;
+            align-content: center;
+            font-size: 17px;
+
+        }
+
+        .separador-row .parrafo-3{
+
+            width: 70%;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            
+        }
+
+        .contenedor-info-extra{
+
+            padding: 0;
+
+        }
+
+        .contenedor-info-extra .titulo-habilidad{
+
+            font-size: 22px;
+    
+        }
+
+        .contenedor-info-extra .mg-barra{
+
+            width: 100%;
+            height: 30px;
+            border: 2px solid #707070;
+    
+        }
+    
+        .contenedor-info-extra .bg-barra{
+    
+            background: rgba(181, 165, 165, 100);
+            width: 20%;
+            height: 26px;
+            text-align: center;
+            color: white;
+            transition: all 7s;
+    
+        }
+    
+        .contenedor-info-extra .bg-barra h3{
+        
+            font-size: 20px;
+            font-weight: bold;
+            padding: 2px;
+    
+        }
 
 /*============================================
 TABLET HORIZONTAL (LG revisamos en 1024px)
@@ -668,6 +745,20 @@ TABLET VERTICAL (MD revisamos en 768px)
 
     }
 
+    /*============================================
+    PÁGINA - SOBRE MÍ
+    ============================================*/
+
+        /*============================================
+        SOBRE MÍ
+        ============================================*/
+
+        .sobre-mi{
+
+            margin-top: 55px;
+
+        }
+
 }
 
 /*============================================
@@ -945,6 +1036,32 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
         font-size: 14px;
 
     }
+
+    /*============================================
+    PÁGINA - SOBRE MÍ
+    ============================================*/
+
+        /*============================================
+        SOBRE MÍ
+        ============================================*/
+
+        .sobre-mi{
+
+            margin-top: 40px;
+
+        }
+
+        .row-sobre-mi{
+
+            margin-bottom: 1px;
+
+        }
+
+        .parrafo-sobre-mi{
+
+            margin-top: 10px;
+
+        }
 
 }
 
@@ -1300,5 +1417,31 @@ MÓVIL VERTICAL (revisamos en 320px)
         font-size: 13px;
 
     }
+
+    /*============================================
+    PÁGINA - SOBRE MÍ
+    ============================================*/
+
+        /*============================================
+        SOBRE MÍ
+        ============================================*/
+
+        .sobre-mi{
+
+            margin-top: 36px;
+
+        }
+
+        .row-sobre-mi{
+
+            margin-bottom: 1px;
+
+        }
+
+        .parrafo-sobre-mi{
+
+            margin-top: 12px;
+
+        }
 
 }
