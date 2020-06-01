@@ -839,7 +839,7 @@ MÓVIL HORIZONTAL (SM revisamos en 576px)
     /*============================================
     INFORMACIÓN PERSONAL
     ============================================*/
-
+    
     .separador{
 
         width: 75%;
@@ -1168,11 +1168,17 @@ MÓVIL VERTICAL (revisamos en 320px)
 
     }
 
-    .redes-sociales li i{
+    .redes-sociales li a i{
 
         font-size: 22px;
         font-weight: 400;
         padding: 20px;
+
+    }
+
+    .redes-sociales li a i:hover{
+
+        font-size: 22px;
 
     }
 
